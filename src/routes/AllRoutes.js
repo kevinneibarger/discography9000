@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import {AlbumsList, AlbumDetails, Search, PageNotFound, TopArtists} from "../pages";
+import {AlbumsList, AlbumDetails, Search, PageNotFound} from "../pages";
 
 export const AllRoutes = () => {
     return (
