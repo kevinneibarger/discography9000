@@ -13,9 +13,9 @@ export const AllRoutes = () => {
                 {/*<Route path="music/upcoming" element={<AlbumsList apiPath="method=chart.gettopartists" title="Upcoming" />} />*/}
                 {/*<Route path="search" element={<Search apiPath="search/movie" />} />*/}
 
-                <Route path="" element={<TopArtists methodGet="chart.gettopartists" title="Home" />} />
+                {/*<Route path="" element={<TopArtists methodGet="chart.gettopartists" title="Home" />} />*/}
 
-                {/*<Route path="" element={<AlbumsList apiPath="movie/now_playing" title="Home" />} />*/}
+                <Route path="" element={<AlbumsList apiPath="movie/now_playing" title="Home" />} />
                 <Route path="music/:id" element={<AlbumDetails />} />
                 <Route path="music/popular" element={<AlbumsList apiPath="movie/popular" title="Popular" />} />
                 <Route path="music/top" element={<AlbumsList apiPath="movie/top_rated" title="Top Rated" />} />

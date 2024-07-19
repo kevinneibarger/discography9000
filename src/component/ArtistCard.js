@@ -7,7 +7,7 @@ export const ArtistCard = ({artist}) => {
     console.log(">> Artist Card <<");
     console.log(artist);
 
-    const {mbid, name, url, artist_art} = artist;
+    const {mbid, name, artist_art} = artist;
     const image = artist_art ? `https://image.tmdb.org/t/p/w500/${artist_art}` : Backup ;
     const [isFlipped, setFlipped] = useState(false);
 
